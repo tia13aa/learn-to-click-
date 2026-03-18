@@ -1,0 +1,11 @@
+img{
+    width: 90px;
+    height: 90px;
+}
+body {
+    text-align: center;
+    font-family: 'Arial';
+    background-image:urg('https://cdn.wallpapersafari.com/19/42/2lh7fk.jpg');
+    background-size: cover;
+    color: rgb(242, 248, 175);
+}

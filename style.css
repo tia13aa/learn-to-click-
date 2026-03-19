@@ -5,7 +5,7 @@ img{
 body {
     text-align: center;
     font-family:'Times New Roman';
-    background: #f59c9a;
+    background:#f59c9a;
     background-size: cover;
     color: rgb(69,21,27);
 }
@@ -15,8 +15,25 @@ button {
     background: #f5c8c4
     border-radius: 2px;
     cursor: pointer;
-    transition: tranform 0.3s ease;
+    transition: tranform 0.2s ease;
 }
 .button:active{
-    transform: scale(0.99)
+    transform: scale(0.97);
+}
+.button: :before,
+.button: :after {
+    content: "";
+    left: 50%;
+    background: #f59c9a;
+    tranform: translateX(-50%);
+    height: 100%;
+    width: 150%;
+    border: 2px solid pink;
+    position: absolute;
+}
+.button: :before {
+    top: -70%;
+}
+.button: :after {
+    buttom: -70%;
 }
